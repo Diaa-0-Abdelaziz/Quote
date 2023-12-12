@@ -1,0 +1,15 @@
+.Quote h1
+{
+    width: fit-content;
+    margin: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(17, 82, 167) rgb(17, 82, 167) rgb(12, 68, 141) rgb(12, 68, 141);
+}
+#quote-author
+{
+    width: fit-content;
+    margin: auto;
+    border-right: 5px solid rgb(12, 68, 141);
+    border-left: 5px solid rgb(12, 68, 141);
+}

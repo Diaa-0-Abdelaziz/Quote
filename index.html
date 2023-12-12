@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+     <div class="Quote container mt-5 text-center">
+      <h1 class="bg-primary p-2 rounded-pill text-light mb-5">Quote of the Day</h1>
+      <h4 class="fs-3">Press the button below to recieve a random quote!</h4>
+        <button class="btn btn-primary my-5 fs-3" onclick="show()">New Quote</button>
+        <div id="content" class="bg-dark bg-gradient rounded p-2" >
+         <h2 class="text-light" id="quote-content"></h2>
+         <h2 class="rounded text-primary bg-dark bg-gradient mt-5 mb-3 py-1 px-3" id="quote-author"></h2>
+        </div>
+     </div>
+    <script src="./src/main.js"></script>
+    <script src="./src/bootstrap.min.js"></script>
+</body>
+</html>
